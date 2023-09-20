@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "solana_zeroize_dep_example"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-nats = "0.31"
+solana_client_mainnet = {package = "solana-client", version = "1.16.13"}
